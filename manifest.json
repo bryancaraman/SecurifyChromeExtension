@@ -17,5 +17,11 @@
           "matches": ["https://mail.google.com/*"],
           "js": ["script.js"]
         }
-    ]
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [ "Green_Logo.png", "Logo_Neutral.png", "Logo_Suspicious", "Logo_Slight" ],
+            "matches": ["https://mail.google.com/*"]
+        }
+   ]
 }
