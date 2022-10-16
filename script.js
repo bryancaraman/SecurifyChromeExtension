@@ -11,7 +11,6 @@ async function myMain (_) {
     chrome.runtime.sendMessage({emailsArray, fetch_scores: true}, function (response) {
         index = response;
     })
-    await new Promise(resolve => setTimeout(resolve, 10000));
 
     while (true) {
         chrome.runtime.sendMessage({index, get_fetch_results: true}, async function (response) {
@@ -43,7 +42,7 @@ async function myMain (_) {
                 listOfRows[i].insertBefore(td, listOfPictureEdges[i])
             }
         });
-        await new Promise(resolve => setTimeout(resolve, 10))
+        await new Promise(resolve => setTimeout(resolve, 1000))
     }
 }
 

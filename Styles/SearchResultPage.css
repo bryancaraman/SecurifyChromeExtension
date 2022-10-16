@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(229, 229, 229);
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.ReportDiv{
+    width: 400px;
+    height: 300px;
+    background: #FFFFFF;
+}
+.NavBar{
+    width: 300px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+}
+.Logo{
+    width: 100px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+}
+#logoImage{
+    width: 45px;
+    height: 30px;
+}
+#logoText{
+    font-size: large;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: #001530;
+}
+#lineBreak{
+    width: 375px;
+    opacity: 20%;
+}
+.ReportPTS{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+#PTS{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.ReportContainer{
+    width: 375px;
+    height: 50px;
+    display: flex;
+    margin-left: 10px;
+}
+.LogoSus{
+    display: flex;
+    width: fit-content;
+}
+#redLogoImage{
+    height: 50px;
+    width: 45px;
+    margin-left: 15px;
+}
+.HighlySusDescription{
+    margin: auto;
+    display: block;
+    margin-left: 7px;
+}
+#HighlySus{
+    font-size: 14px;
+    margin-top: -1px;
+}
+#recc{
+    margin-top: -8px;
+    font-size: 6px;
+}
+.ImagesContainer{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+#people{
+    width: 35px;
+    height: 32px;
+    margin-right: 10px;
+}
+#cal{
+    width: 35px;
+    height: 30px;
+    margin-right: -10px;
+}
+.DetailedReport{
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.ReportButton{
+    border: none;
+    width: 318px;
+    height: 50px;
+    background: #001530;
+    box-shadow: -4px -4px 6px rgba(239, 239, 239, 0.5), 4px 4px 6px rgba(171, 171, 171, 0.599836);
+    border-radius: 100px;
+}
+#reportText{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+}
+#lineBreak4{
+    width: 375px;
+    opacity: 20%;
+    height: 0px;
+    margin-top: 20px;
+}
+.DisclaimerDiv{
+    display: flex;
+    margin-top: -10px;
+    text-align: center;
+    width: 310px;
+    margin: auto;
+}
+#disclaimer{
+    font-size: 8px;
+}
+span{
+    color: #006BFF;
+}

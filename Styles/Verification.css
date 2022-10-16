@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(229, 229, 229);
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.HomeDiv{
+    width: 400px;
+    height: 400px;
+    background: #FFFFFF;
+}
+.NavBar{
+    width: 300px;
+    height: 40px;
+    padding-top: 15px;
+    display: flex;
+}
+.Logo{
+    width: 100px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+}
+#logoImage{
+    width: 45px;
+    height: 30px;
+}
+#logoText{
+    font-size: large;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: #001530;
+}
+#lineBreak{
+    width: 380px;
+    opacity: 20%;
+}
+.GoBack{
+    display: flex;
+    height: max-content;
+}
+.BackButton{
+    height: max-content;
+    border: none;
+    background-color: white;
+}
+#backImage{
+    height: 28px;
+    width: 32px;
+    margin-left: 10px;
+}
+#backImageText{
+    font-size: 12px;
+    color: #001530;
+    font-weight: 400;
+    opacity: 0.8;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+}
+#enterCode{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.8;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.VerificationCodeText
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Code1, .Code2, .Code3, .Code4{
+    border: 1px solid #000000;
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: -4px -4px 6px #EFEFEF, 2px 2px 6px 2px rgba(171, 171, 171, 0.4);
+    opacity: 0.4;
+    background: #F2F2F2;
+}
+input{
+    height: 70px;
+    width: 70px;
+    border: none;
+    text-indent: 30px;
+    font-size: larger;
+}
+.NoCode{
+    height: 30px;
+}
+#didNot{
+    text-align: center;
+    font: 400;
+    font-size: 12px;
+}
+span{
+    color: #006BFF;
+}
+.ReportDiv{
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.ReportButton{
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: #001530;
+    box-shadow: -4px -4px 6px rgba(239, 239, 239, 0.5), 4px 4px 6px rgba(171, 171, 171, 0.599836);
+    border-radius: 100px;
+}
+#reportText{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+}
+#lineBreak4{
+    width: 375px;
+    opacity: 20%;
+    height: 0px;
+}
+.DisclaimerDiv{
+    display: flex;
+    text-align: center;
+    width: 310px;
+    margin: auto;
+}
+#disclaimer{
+    font-size: 8px;
+}
