@@ -1,0 +1,17 @@
+{
+    "name": "Securify",
+    "version": "1.0.0",
+    "description": "Secure emails",
+    "manifest_version": 3,
+    "author": "Securify.inc",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Secure your information"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://mail.google.com/*"],
+          "js": ["script.js"]
+        }
+    ]
+}
