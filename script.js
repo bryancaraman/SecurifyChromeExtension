@@ -12,32 +12,6 @@ async function myMain (_) {
         index = response;
     })
     await new Promise(resolve => setTimeout(resolve, 10000));
-    // chrome.runtime.sendMessage({index, get_fetch_results: true}, async function (response) {
-    //     const listOfPictureEdges = document.getElementsByClassName("yX xY");
-    //     const listOfRows = document.getElementsByClassName("zA")
-    //     for (let i = 0; i < listOfPictureEdges.length; ++i) {
-    //         var td = document.createElement('td')
-    //         let src = chrome.runtime.getURL('Logo_Suspicious.png')
-    //         if (response[i].whiteListed) {
-    //             src = chrome.runtime.getURL('Green_Logo.png')
-    //         } else if (response[i].numReports < 2) {
-    //             src = chrome.runtime.getURL('Green_Logo.png')
-    //         } else if (response[i].numReposts < 10) {
-    //             src = chrome.runtime.getURL('Logo_Neutral.png');
-    //         } else if (response[i].numReports < 50) {
-    //             src = chrome.runtime.getURL('Logo_Slight.png');
-    //         }
-    //         var div = document.createElement("div")
-    //         var img = document.createElement("img")
-    //         img.src = src
-    //         img.style.marginRight = "15px";
-    //         img.style.marginTop = "3px";
-    //         div.appendChild(img)
-    //         td.appendChild(div)
-    //         td.setAttribute('class', `securify`)
-    //         listOfRows[i].insertBefore(td, listOfPictureEdges[i])
-    //     }
-    // });
 
     while (true) {
         chrome.runtime.sendMessage({index, get_fetch_results: true}, async function (response) {
