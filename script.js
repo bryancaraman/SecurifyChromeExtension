@@ -37,7 +37,6 @@ function myMain (_) {
                 img.style.marginTop = "2px";
                 div.appendChild(img)
                 td.appendChild(div)
-                document.body.appendChild(td)
                 listOfRows[i].insertBefore(td, listOfPictureEdges[i])
             }
         });
