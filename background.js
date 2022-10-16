@@ -25,6 +25,7 @@ chrome.runtime.onMessage.addListener(
                 data,
                 completed: true,
             };
+            console.log(data);
         } else if (request.get_fetch_results) {
             sendResponse(results[request.index].data)
         } else if (request.store_report_id) {

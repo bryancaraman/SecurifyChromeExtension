@@ -27,7 +27,7 @@
     ],
     "web_accessible_resources": [
         {
-            "resources": [ "Green_Logo.png", "Logo_Neutral.png", "Logo_Suspicious", "Logo_Slight" ],
+            "resources": [ "Green_Logo.png", "Logo_Neutral.png", "Logo_Suspicious.png", "Logo_Slight.png" ],
             "matches": ["https://mail.google.com/*"]
         }
    ]

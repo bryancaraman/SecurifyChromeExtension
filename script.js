@@ -2,10 +2,15 @@
 window.addEventListener ("load", myMain, false);
 async function myMain (_) {
     const listOfEmails = document.getElementsByClassName("bA4");
-    const emailsArray = [];
+    const tempEmailsArray = [];
     for (let email of listOfEmails) {
-        emailsArray.push((email.firstChild).getAttribute('email'))
+        tempEmailsArray.push((email.firstChild).getAttribute('email'))
     }
+    const emailsArray = [];
+    for (let i = 0; i < tempEmailsArray.length; i += 2) {
+        emailsArray.push(tempEmailsArray[i]);
+    }
+    
     
     let index = 0;
     chrome.runtime.sendMessage({emailsArray, fetch_scores: true}, function (response) {
