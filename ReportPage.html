@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/HomePage.css" />
+    <link rel="stylesheet" href="Styles/ReportPage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Report</title>
+  </head>
+  <body>
+    <div class="ReportDiv">
+      <div class="Navbar">
+        <div class="Logo">
+          <img src="Logo.png" alt="SecurifyLogo" id="logoImage" />
+          <h1 id="logoText"><strong>Securify</strong></h1>
+          <img src="Toggle.png" alt="Toggle" id="toggleImage" />
+        </div>
+      </div>
+      <hr id="lineBreak" />
+      <div id="report_main">
+        <div class="row">
+            <button class="back_button" id="back_button">
+                <div>
+                    <img width="18px" src="back_button.png" />
+                </div>
+            </button>
+                <h1 id="back_button_text">Report Malicious Content</label>
+        </div>
+        <div id="inputs">
+            <div class="input_field">
+                <label for="malicious content" class="input_label">Malicious Content</label>
+                <input 
+                    type="text"
+                    id="searchBox" 
+                    placeholder="Enter malicious email or link"
+                    />
+            </div>
+            <div class="input_field">
+                <label for="description" class="input_label">Description</label>
+                <textarea 
+                    type="text"
+                    id="textarea" 
+                    rows="4"
+                    placeholder="Provide a brief description in atleast 20 words."
+                    ></textarea>
+            </div>
+            <div class="input_field">
+                <label for="phone number" class="input_label">Phone Number</label>
+                <div id="phone_number_input">
+                    <img id="phone_code" width="70" src="country_code.png" />
+                    <input 
+                        type="text"
+                        id="searchBox" 
+                        placeholder="Enter your phone number"
+                        />
+                </div>
+            </div>
+            <div id="button_div">
+                <button id="ContinueButton">
+                    <span id="reportText">Continue</span>
+                </button>
+            </div>
+        </div>
+        <div class="DisclaimerDiv">
+            <p id="disclaimer">
+            We do not save any personally identifiable information. Nobody, not
+            even Securify, has access to or may view your personal information.
+            Click here to learn more.
+            </p>
+        </div>
+      </div>
+      <script src="Scripts/HomePage.js"></script>
+  </body>
+</html>

@@ -2,6 +2,7 @@ const results = []
 
 chrome.runtime.onMessage.addListener(
     async function(request, sender, sendResponse) {
+        console.log(results)
         if (request.fetch_scores) {
             let i = results.length
             results.push({
@@ -26,6 +27,5 @@ chrome.runtime.onMessage.addListener(
         } else if (request.get_fetch_results) {
             sendResponse(results[request.index].data)
         }
-        return true;
     }
 )

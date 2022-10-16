@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(229, 229, 229);
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.HomeDiv{
+    width: 400px;
+    height: 300px;
+    background: #FFFFFF;
+}
+.NavBar{
+    width: 300px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+}
+.Logo{
+    width: 150px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+}
+#logoImage{
+    width: 45px;
+    height: 30px;
+}
+#logoText{
+    font-size: large;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: #001530;
+}
+#toggleImage{
+    width: 60px;
+    height: 30px;
+    right: 40px;
+    top: 15px;
+    margin: auto;
+    margin-left: 210px;
+}
+#lineBreak{
+    width: 375px;
+    opacity: 20%;
+}
+.Trust{
+    padding-top: 10px;
+    font-size: small;
+}
+#searchBoxText{
+    padding-left: 25px;
+    padding-top: 20px;
+    color: #001530;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.15);
+}
+.SearchInput{
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+#searchBox{
+    background: #F2F2F2;
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: -4px -4px 6px #EFEFEF, 2px 2px 6px 2px rgba(171, 171, 171, 0.4);
+    font-family: 'Nunito', sans-serif;
+    text-indent: 10px;
+}
+::placeholder{
+    opacity: 40%;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+}
+.SearchButton{
+    background: #001530;
+    border: none;
+    box-shadow: -4px -4px 6px #EFEFEF, 2px 2px 6px 2px rgba(171, 171, 171, 0.4);
+    border-radius: 12px;
+    color:#FFFFFF;
+    height: 35px;
+    width: 55px;
+    text-align: center;
+    margin-left: -65px;
+}
+.SearchButtonDiv{
+    margin-top: -2px;
+}
+span{
+    font-weight: 700;
+    font-size: 8px;
+    font-family: 'Nunito', sans-serif;
+}
+#searchText{
+    top: -5px;
+}
+.OrSection{
+    margin-top: 10px;
+    display: flex;
+}
+#lineBreak2{
+    width: 35%;
+    height: 0px;
+    opacity: 20%;
+    margin-right: 10px;
+    box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
+}
+#or{
+    font-size: 12px;
+    margin-top: 0px;
+    opacity: 20%;
+}
+#lineBreak3{
+    width: 35%;
+    height: 0px;
+    opacity: 20%;
+    margin-left: 10px;
+    box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
+}
+.ReportDiv{
+    margin: auto;
+    height: 50px;
+    text-align: center;
+}
+.ReportButton{
+    border: none;
+    width: 318px;
+    height: 50px;
+    background: #001530;
+    box-shadow: -4px -4px 6px rgba(239, 239, 239, 0.5), 4px 4px 6px rgba(171, 171, 171, 0.599836);
+    border-radius: 100px;
+}
+#reportText{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+}
+#lineBreak4{
+    width: 375px;
+    opacity: 20%;
+    height: 0px;
+}
+.DisclaimerDiv{
+    display: flex;
+    margin-top: -10px;
+    text-align: center;
+    width: 310px;
+    margin: auto;
+}
+#disclaimer{
+    font-size: 8px;
+}
