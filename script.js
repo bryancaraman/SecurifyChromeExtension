@@ -34,7 +34,7 @@ function myMain (_) {
                 var img = document.createElement("img")
                 img.src = src
                 img.style.marginRight = "15px";
-                img.style.marginTop = "2px";
+                img.style.marginTop = "3px";
                 div.appendChild(img)
                 td.appendChild(div)
                 document.body.appendChild(td)
