@@ -30,10 +30,13 @@ function myMain (_) {
                 } else if (response[i].numReports < 50) {
                     src = chrome.runtime.getURL('Logo_Slight.png');
                 }
+                var div = document.createElement("div")
                 var img = document.createElement("img")
                 img.src = src
                 img.style.marginRight = "15px";
-                td.appendChild(img)
+                img.style.marginTop = "2px";
+                div.appendChild(img)
+                td.appendChild(div)
                 document.body.appendChild(td)
                 listOfRows[i].insertBefore(td, listOfPictureEdges[i])
             }
